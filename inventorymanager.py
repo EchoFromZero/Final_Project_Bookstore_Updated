@@ -1,3 +1,4 @@
+import pandas
 
 #Dictionaries
 ISBN={}
@@ -39,9 +40,9 @@ r="a"
 
 print("Welcome to GMC bookstore inventory system")
 print()
-print("You can carry out the following functions by entering relevant letter(s)")
-print("A - Add a book in the inventory")
-print("R - Remove a book in the inventory")
+print("You can do the following functions by entering relevant letter(s)")
+print("A - Add a book to the inventory")
+print("R - Remove a book from the inventory")
 print("U - Update details of a book")
 print("V - View all the books in the inventory")
 print("I - Inquire though inventory number")
@@ -49,7 +50,7 @@ print("P - Purchase or put your books in the cart")
 print("C - Checkout")
 print("S - Show all the books in the cart")
 print("Remove - Remove a book from the cart")
-print("RemoveAll - Empty the cart")
+print("RemoveAll - Empty your cart")
 print("Q - Quit; any books in the cart will be automatically checked out when you quit")
 print("help - See all functions")
 print()
@@ -154,14 +155,12 @@ while(r!= "q" or r!= "Q"):
             print()
         
     elif(r == "V" or r == "v"):
-        print()
-        print("Inventory number & ISBN: ", ISBN)
-        print("Book Title: ", Title)
-        print("Author: ", Author)
-        print("Prce: ", Price)
-        print("Quantity: ", Quantity)
-        print("Sold: ", Sold)
-        print()
+        print ("number \t ISBN \t Title \t Author \t Price \t Quantity \t Sold")
+        for i in range(0, len(ISBN)):
+            view_book = (str(i+1) + "\t" + str(ISBN[i+1]) + "\t" + str(Title[i+1]) + "\t"
+                + str(Author[i+1]) + "\t" + str(Price[i+1]) + "\t" \
+                    + str (Quantity[i+1]) + "\t" + str(Sold[i+1]) + "\n")
+            print (view_book)
 
     elif(r == "I" or r == "i"):
         print()
@@ -225,17 +224,17 @@ while(r!= "q" or r!= "Q"):
         print("Help Centre")
         print("Welcome to GMC bookstore inventory system")
         print()
-        print("You can carry out the following functions by entering relevant letter(s)")
-        print("A - Add a book in the inventory")
-        print("R - Remove a book in the inventory")
+        print("You can do the following functions by entering relevant letter(s)")
+        print("A - Add a book to the inventory")
+        print("R - Remove a book from the inventory")
         print("U - Update details of a book")
         print("V - View all the books in the inventory")
-        print("I - Inquire though listnumber")
+        print("I - Inquire though inventory number")
         print("P - Purchase or put your books in the cart")
         print("C - Checkout")
         print("S - Show all the books in the cart")
         print("Remove - Remove a book from the cart")
-        print("RemoveAll - Empty the cart")
+        print("RemoveAll - Empty your cart")
         print("Q - Quit; any books in the cart will be automatically checked out when you quit")
         print("If you have any other questions or concerns please contact the manager.")
         print()
@@ -267,6 +266,7 @@ while(r!= "q" or r!= "Q"):
                 print()  
     elif(r == "s" or r =="S"): 
         print()
+        print("You have following books in your cart:")
         print(shoppingcart)
         print()
         
