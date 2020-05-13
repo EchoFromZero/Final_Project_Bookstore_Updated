@@ -13,5 +13,6 @@ BIS can help you add, remove, update books in an inventory system as well as rec
 
 # Usage
 
-To run the project, change your directory to the folder and run the program in Git Bash by typing in "python inventorymanager.py"
+To run the project, change your directory to the folder and run the program in Git Bash by typing in
 
+    python inventorymanager.py
