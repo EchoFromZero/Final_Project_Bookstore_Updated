@@ -1,0 +1,10 @@
+Receipt. Checkout time: 2020-05-15 13:57:44
+
+Items: 
+
+9782070112715 Oeuvres completes             Francis Ponge  25.0  
+9780998829036 Nioque of the Early-Spring    Francis Ponge  17.89 
+
+Total before tax: $42.89	Grand Total is: $46.7
+=====================================================================
+ 

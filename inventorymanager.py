@@ -25,6 +25,8 @@ print()
 print ("In the bookstore, you now have the following books: ")
 print()
 
+print ("ID".ljust(3) + "ISBN".ljust(14) + "Title".ljust(30) + "Author".ljust(15) + "Price".ljust(6) \
+    + "Qty".ljust(4) + "Sold".ljust(4))
 # Store all the information in separate dictionaries: {ID: xx}. 
 totalnumber_items = 0
 for book in BooksUnpack:
