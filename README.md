@@ -1,6 +1,6 @@
 # Bookstore Inventory System (BIS)
 
-This paragram track the inventory of books in a bookstore. 
+This paragram track the inventory and the sales of books in a bookstore. 
 
 # Overview
 BIS can help you add, remove, update books in an inventory system as well as record the purchases.  
