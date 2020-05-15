@@ -4,11 +4,11 @@
 I have worked for a bookstore of a ten-day conference twice; in that bookstore, we sell books to participants. The manager of the bookstore has an Excel of all the information of the books in the bookstore. When one buys a book, we manually record the sales in the printed version of the Excel file and charge them with an App called Square. This takes time for assistants to locate the relevant book in the Excel form and also sometimes easily leads to mistakes. This makes me want to have a programe to record the inventory of the bookstore and track the sales during the conference. 
 
 ## Difficulties
-1. Interface: It is hard to find an appropriate platform to run the program. By platform, I mean I don't know which method/operation is best for me to carry out the functions I wanted. 
-    (1) I tried csv and DictReader at first, but then I was troubled by the result it produces because I didn't know how to separate each variants in the csv by DictReader or do some searching method. 
-    (2) I also tried tkinter as my interface and sqlite3 as my database for a while, which provide me with a nice interface and strong capacaties of storing data. Then I was not sure how to change specific items in the csv (e.g. quantity of a book). It seems that I still need to do it with dictionaries. 
-    (3) I also tried pandas. It has a nice display of the information. But I think its strength--data analysis--is not the main function I needed here for my project.
-    (4) By looking at various models online, I finally decided to go back to the basics. To use Python and run the program in commandline/Git Bash. I also learned how to use DictReader and csv/tsv in the end. 
+1. Interface: It is hard to find an appropriate platform to run the program. By platform, I mean I don't know which method/operation is best for me to carry out the functions I wanted. <br />
+    (1) I tried csv and DictReader at first, but then I was troubled by the result it produces because I didn't know how to separate each variants in the csv by DictReader or do some searching method according to different categories. <br />
+    (2) I also tried tkinter as my interface and sqlite3 as my database for a while, which provide me with a nice interface and strong capacities of storing data. Then I was not sure how to change specific items in the csv (e.g. quantity of a book). It seems that I still need to do it with dictionaries. <br />
+    (3) I also tried pandas. It has a nice display of the information. But I think its strength--data analysis--is not the main function I needed here for my project.<br />
+    (4) By looking at various models online, I finally decided to go back to the basics. To use Python and run the program in commandline/Git Bash. I also learned how to use DictReader and csv/tsv in the end. <br />
 
 2. Different types of information to process. For example, at first when I use DictReader to import data from csv, I didn't know what the type of results I got (is it a list? a string? a dictionary?). Same problem also occurs when I use panda, sqlite3. Sometimes it takes time to figure out how to convert between different types of data. 
 
@@ -18,18 +18,18 @@ I have worked for a bookstore of a ten-day conference twice; in that bookstore, 
 
 In addition to the programming knowledge I learned through the process, I also find the following method/practice helpful in my process of programming:
 
-1. Listing "Must Have," "Should Have," "Could Have" is helpful establish a clear, focused goal of the project.
+1. Listing "Must Have," "Should Have," "Could Have" is helpful in establishing a clear, focused goal of the project.
 
 2. Finding the appropriate terms to ask the question.
 
 3. Browsing various related/relevant models, and learning their programming langauge through these models. 
 
-4. It is helpful to talk to Patrick about the project and issues I have in the program, who gave me some valuable specific suggestions in programming; It is also helpful to talk to my partner who has no knowledge of programming, but understands what I want to do and give some refreshing advice from a client's perspective to improve the product from the product's end. 
+4. It is helpful to talk to Patrick about the project and issues I have in the project, who gave me some valuable specific suggestions in programming; It is also helpful to talk to my partner who has no knowledge of programming, but understands what I want to do and give some refreshing advice from a client's perspective to improve the product from the product's end. 
 
 ## Next Step (Client Communication)
 Although I'm pretty familiar with the needs and wants of the project, I want to talk to the bookstore manager about the project and will confirm with him if he has any further needs and wants. I will have a couple of test runs with him before we finally use this program in the bookstore. 
 
-## Breakdown of the weeks
+## Breakdown of the weeks (Process)
 ### Week 4/7-4/14
 1. 2h create final projects file (bookstore), list the details of about.md, create a tentative booklist (csv) for testing. But don't know why in the author's categories, there is a pair of quotation marks. Really excited about this project. 
 2. 3.5h Set up a barcode scanner; figuring out how to incorporate csv into a dictionary, how to search under csv.DictReader, but not wroking... Can print out the full list. Still working on the search function.
@@ -93,7 +93,7 @@ Title of the book, daily sold number
 
 This program records the selling inventory of a bookstore. 
 
-## MUST have
+### MUST have
 1. (Achieved) The program imports a list of items of books (isbn, title, author, price, quantity, sold).
 2. (Achieved) Start to take order.  <br />
 *For each order:*
@@ -104,7 +104,7 @@ This program records the selling inventory of a bookstore.
 *End of an order*
 7. (Achieved) Would be able to export a new list of updated items of books.
 
-## SHOULD have
+### SHOULD have
 1. (Achieved) Can cancel item that is created by mistake.  
 2. (will include this function in the future) If the book is taken by the author themselves, the user should mark it down in the "taken" category, instead of "sold" category.
 3. (Achieved) instead of using barcode scanner or typing in isbn, user can search for relevant information by typing in key words, because occasionally some items do not have a barcode or isbn.
@@ -113,7 +113,7 @@ This program records the selling inventory of a bookstore.
 6. **(Working on)** Would be able to present the daily total and the daily sales of the books, and also the grand total. 
 
 
-## COULD have
+### COULD have
 1. (Will include in the future) When customers come to buy more than one item, the user can type in the quantity.
 2. (Will include in the future) the program can record the payment method: card/cash/check.
 3. (Achieved) Can create a record of each order (with a booklist sold, time, (this part will be included in the future) payment method: card/cash/check)
