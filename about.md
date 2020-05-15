@@ -26,6 +26,8 @@ In addition to the programming knowledge I learned through the process, I also f
 
 4. It is helpful to talk to Patrick about the project and issues I have in the project, who gave me some valuable specific suggestions in programming; It is also helpful to talk to my partner who has no knowledge of programming, but understands what I want to do and give some refreshing advice from a client's perspective to improve the product from the product's end. 
 
+5. If the syntax of the code is too convoluted, sometimes there is a better simpler way to accomplish the task/goal.
+
 ## Next Step (Client Communication)
 Although I'm pretty familiar with the needs and wants of the project, I want to talk to the bookstore manager about the project and will confirm with him if he has any further needs and wants. I will have a couple of test runs with him before we finally use this program in the bookstore. 
 
