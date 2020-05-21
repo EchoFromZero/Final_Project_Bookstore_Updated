@@ -1,5 +1,6 @@
 import csv
 import datetime
+import time
 
 #define current time for receipt
 now = datetime.datetime.now()
@@ -25,8 +26,9 @@ print()
 print ("In the bookstore, you now have the following books: ")
 print()
 
-print ("ID".ljust(3) + "ISBN".ljust(14) + "Title".ljust(30) + "Author".ljust(15) + "Price".ljust(6) \
-    + "Qty".ljust(4) + "Sold".ljust(4))
+print ("ID".ljust(4) + "ISBN".ljust(15) + "Title".ljust(31) + "Author".ljust(16) + "Price".ljust(7) \
+    + "Qty".ljust(5) + "Sold".ljust(5))
+
 # Store all the information in separate dictionaries: {ID: xx}. 
 totalnumber_items = 0
 for book in BooksUnpack:

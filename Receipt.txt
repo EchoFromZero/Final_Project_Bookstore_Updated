@@ -8,3 +8,12 @@ Items:
 Total before tax: $42.89	Grand Total is: $46.7
 =====================================================================
  
+Receipt. Checkout time: 2020-05-20 21:51:19
+
+Items: 
+
+9781939663245 The Table                     Francis Ponge  15.0  
+
+Total before tax: $15.0	Grand Total is: $16.33
+=====================================================================
+ 
